@@ -82,7 +82,8 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="micro ~/.zshrc"
+alias zshconfig="vim ~/.zshrc"
+alias git=hub
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # gvm
@@ -95,7 +96,7 @@ source $(brew --prefix nvm)/nvm.sh
 # エクスポート
 export GOPATH=$HOME/dev
 export PATH=$PATH:$GOPATH/bin
-export EDITOR=micro
+export EDITOR=vim
 export PATH="$HOME/.cargo/bin:$PATH"
 export RUST_SRC_PATH=/usr/local/src/rustc-1.12.0/src
 
